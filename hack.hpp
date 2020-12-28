@@ -1,12 +1,12 @@
 //
-//  Hack.hpp
-//  Hack_Private
+//  hack.hpp
+//  cpp-private-hack
 //
 //  Created by Mashpoe on 12/23/20.
 //
 
-#ifndef Hack_h
-#define Hack_h
+#ifndef hack_h
+#define hack_h
 
 #include <memory>
 
@@ -38,4 +38,4 @@ class hijack_ ## hijack_name {\
 \
 template class hijack_ ## hijack_name<TranslationUnitTag, decltype(&hijack_target), &hijack_target>;
 
-#endif /* Hack_h */
+#endif /* hack_h */
